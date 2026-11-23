@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08090d" />
+  <meta name="description" content="Srujan — Computer Science student, creative developer and AI builder. Designing and developing digital experiences." />
+  <title>Srujan — Creative Developer & AI Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="preloader" id="preloader"><div class="preloader-mark">S<span>.</span></div><div class="preloader-line"><i></i></div><p>INITIALIZING EXPERIENCE</p></div>
+  <canvas id="particles"></canvas>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+  <header class="nav-wrap">
+    <a class="brand" href="#home"><span class="brand-mark">S.</span><span>SRUJAN<span class="brand-muted"> / PORTFOLIO</span></span></a>
+    <nav class="nav-links">
+      <a href="#work">WORK <span>01</span></a><a href="#about">ABOUT <span>02</span></a><a href="#skills">STACK <span>03</span></a><a href="#contact">CONTACT <span>04</span></a>
+    </nav>
+    <a class="availability" href="#contact"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</a>
+    <button class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span></button>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> COMPUTER SCIENCE · DEVELOPER · BUILDER</p>
+        <h1 class="hero-title"><span class="title-line">I BUILD</span><span class="title-line title-outline">DIGITAL</span><span class="title-line"><span class="word-gradient">FUTURES<span class="title-dot">.</span></span></span></h1>
+        <div class="hero-bottom reveal">
+          <p class="hero-copy">Turning curious ideas into <span>thoughtful software</span>, immersive experiences, and AI-powered products.</p>
+          <div class="hero-actions"><a class="button button-primary magnetic" href="#work">EXPLORE MY WORK <span>↘</span></a><a class="button button-ghost magnetic" href="#contact">LET'S CONNECT <span>↗</span></a></div>
+        </div>
+      </div>
+      <div class="hero-side-note">SCROLL TO EXPLORE <span class="scroll-arrow">↓</span></div>
+      <div class="hero-coordinate">13°02' N / 74°52' E</div>
+      <div class="hero-index">01 — 05</div>
+    </section>
+    <section class="ticker" aria-label="Specialties"><div class="ticker-track"><span>SOFTWARE ENGINEERING</span><b>✳</b><span>AI APPLICATIONS</span><b>✳</b><span>WEB DEVELOPMENT</span><b>✳</b><span>PRODUCT THINKING</span><b>✳</b><span>SOFTWARE ENGINEERING</span><b>✳</b><span>AI APPLICATIONS</span><b>✳</b><span>WEB DEVELOPMENT</span><b>✳</b><span>PRODUCT THINKING</span><b>✳</b></div></section>
+    <section class="section work-section" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / SELECTED PROJECTS</p><h2>IDEAS IN <span class="serif-italic">motion.</span></h2></div><p class="section-desc">A collection of experiments, products and solutions built with curiosity and intent.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-feature reveal" data-project="trean">
+          <div class="project-art trean-art"><div class="art-grid"></div><div class="art-orb orb-1"></div><div class="art-orb orb-2"></div><div class="art-window"><div class="window-top"><span></span><span></span><span></span><label>TREAN / LEARNING SYSTEM</label></div><div class="window-content"><div class="window-sidebar"><i></i><i></i><i></i></div><div class="window-main"><small>YOUR KNOWLEDGE SPACE</small><strong>Learn beyond<br/>the video.</strong><div class="fake-bars"><i></i><i></i><i></i><i></i></div></div></div></div><div class="project-overlay"><span>AI / LEARNING</span><span>01</span></div></div>
+          <div class="project-info"><div><h3>TREAN AI</h3><p>AI-powered learning companion that transforms video knowledge into an interactive learning experience.</p></div><a href="https://trean-ai.vercel.app/" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>AI</span><span>Next.js</span><span>Supabase</span><span>LLM</span></div>
+        </article>
+        <article class="project-card reveal" data-project="railnova">
+          <div class="project-art rail-art"><div class="rail-glow"></div><div class="rail-track"></div><div class="rail-card"><small>RAILNOVA / JOURNEY</small><div class="rail-route"><strong>UD</strong><span class="route-line"><i></i></span><strong>MA</strong></div><div class="rail-labels"><span>UDUPI</span><span>MANGALORE</span></div><div class="rail-ticket">EXPLORE YOUR NEXT JOURNEY <b>→</b></div></div><div class="project-overlay"><span>TRAVEL / WEB APP</span><span>02</span></div></div>
+          <div class="project-info"><div><h3>RAILNOVA</h3><p>A modern railway booking experience focused on intuitive travel planning and clean interfaces.</p></div><a href="https://github.com/Srujan3208/railnova" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>Supabase</span></div>
+        </article>
+        <article class="project-card reveal" data-project="cineflow">
+          <div class="project-art cine-art"><div class="film-grid"></div><div class="film-frame"><div class="film-play">▶</div><div class="film-caption">YOUR STORY<br/><span>IN MOTION.</span></div><div class="film-wave"></div></div><div class="project-overlay"><span>GENERATIVE / VIDEO</span><span>03</span></div></div>
+          <div class="project-info"><div><h3>CINEFLOW AI</h3><p>Prompt-to-video creative workflow with a responsive frontend and rendering pipeline.</p></div><a href="https://github.com/Srujan3208/cineflow-ai" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>AI</span><span>Python</span><span>Flask</span></div>
+        </article>
+        <article class="project-card reveal" data-project="devmind">
+          <div class="project-art mind-art"><div class="mind-lines"></div><div class="mind-core">DM<span>AI</span></div><div class="mind-node n1">ERROR</div><div class="mind-node n2">TRACE</div><div class="mind-node n3">FIX</div><div class="project-overlay"><span>RESEARCH / AI</span><span>04</span></div></div>
+          <div class="project-info"><div><h3>DEVMIND AI</h3><p>Exploring a domain-focused AI assistant for code debugging and developer learning.</p></div><a href="https://github.com/Srujan3208/DevMind-AI" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>Python</span><span>PyTorch</span><span>LLM</span></div>
+        </article>
+        <article class="project-card reveal" data-project="modelaitrain">
+          <div class="project-art model-art"><div class="model-sphere"></div><div class="model-ui"><small>KNOWLEDGE ENGINE</small><div class="model-progress"><i></i></div><p>RETRIEVAL ACTIVE</p><div class="model-pill">VIDEO → KNOWLEDGE</div></div><div class="project-overlay"><span>LEARNING / AI</span><span>05</span></div></div>
+          <div class="project-info"><div><h3>MODELAITRAIN</h3><p>A local-first knowledge experience built from video transcripts and contextual AI conversations.</p></div><a href="https://github.com/Srujan3208/Modelaitrain" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>JavaScript</span><span>AI</span><span>Knowledge</span></div>
+        </article>
+        <article class="project-card reveal" data-project="navio">
+          <div class="project-art nav-art"><div class="map-lines"></div><div class="nav-pin"><div></div></div><div class="nav-route"><i></i><i></i><i></i></div><div class="nav-label">OFFLINE<br/>NAVIGATION</div><div class="project-overlay"><span>MAPS / MOBILE</span><span>06</span></div></div>
+          <div class="project-info"><div><h3>NAVIO OFFLINE</h3><p>Navigation experiment exploring route guidance and offline-first travel utility.</p></div><a href="https://github.com/Srujan3208/navioffline" target="_blank" rel="noreferrer" class="project-link">↗</a></div><div class="project-tags"><span>Maps</span><span>Mobile</span><span>Offline</span></div>
+        </article>
+      </div>
+      <div class="more-projects reveal"><span>MORE EXPERIMENTS ON GITHUB</span><a href="https://github.com/Srujan3208?tab=repositories" target="_blank" rel="noreferrer">VIEW ALL REPOSITORIES ↗</a></div>
+    </section>
+    <section class="about-section section" id="about">
+      <div class="about-layout">
+        <div class="about-label reveal"><p class="eyebrow">03 / A LITTLE ABOUT ME</p><div class="about-stamp">BUILD<br/>WITH<br/><span>INTENT.</span></div></div>
+        <div class="about-content reveal"><h2>Curiosity is my <span class="serif-italic">engine.</span></h2><p class="about-lead">I'm Srujan — a Computer Science & Engineering student who loves turning ideas into real products.</p><p>I enjoy exploring the intersection of software engineering, AI and design. From experimenting with intelligent systems to crafting responsive digital experiences, I learn by building, breaking and rebuilding.</p><p>My goal is to create technology that feels useful, intuitive and a little unexpected.</p><div class="about-facts"><div><strong>01</strong><span>THINK</span></div><div><strong>02</strong><span>BUILD</span></div><div><strong>03</strong><span>ITERATE</span></div></div><a href="https://www.linkedin.com/in/srujan-206292391/" target="_blank" rel="noreferrer" class="text-link">MORE ABOUT ME ON LINKEDIN ↗</a></div>
+      </div>
+    </section>
+    <section class="skills-section section" id="skills">
+      <div class="section-heading reveal"><div><p class="eyebrow">04 / TOOLKIT</p><h2>MY CREATIVE <span class="serif-italic">stack.</span></h2></div><p class="section-desc">Tools are only as good as the ideas behind them. These are the ones I use to bring ideas to life.</p></div>
+      <div class="skills-grid reveal">
+        <div class="skill-group"><span class="skill-number">01</span><h3>LANGUAGES</h3><div class="skill-list"><span>C</span><span>C++</span><span>Python</span><span>JavaScript</span><span>TypeScript</span></div></div>
+        <div class="skill-group"><span class="skill-number">02</span><h3>WEB & APP</h3><div class="skill-list"><span>React</span><span>Next.js</span><span>HTML</span><span>CSS</span><span>Tailwind</span></div></div>
+        <div class="skill-group"><span class="skill-number">03</span><h3>BACKEND & DATA</h3><div class="skill-list"><span>Supabase</span><span>PostgreSQL</span><span>REST APIs</span><span>Firebase</span></div></div>
+        <div class="skill-group"><span class="skill-number">04</span><h3>AI & WORKFLOW</h3><div class="skill-list"><span>LLM APIs</span><span>Git</span><span>GitHub</span><span>Vercel</span><span>Prompt Engineering</span></div></div>
+      </div>
+    </section>
+    <section class="contact-section section" id="contact">
+      <div class="contact-bg"><div class="contact-ring ring-1"></div><div class="contact-ring ring-2"></div></div>
+      <div class="contact-content reveal"><p class="eyebrow"><span class="status-dot"></span> 05 / LET'S BUILD SOMETHING</p><h2>Have an idea?<br/><span class="serif-italic">Let's make it real.</span></h2><p class="contact-copy">Open to collaborations, internships, freelance projects and interesting conversations.</p><a class="contact-button magnetic" href="mailto:srujan@example.com">START A CONVERSATION <span>↗</span></a><div class="contact-socials"><a href="https://www.linkedin.com/in/srujan-206292391/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/Srujan3208" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="mailto:srujan@example.com">EMAIL ↗</a></div></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">S.</span><span>SRUJAN</span></a><span>DESIGNED & BUILT WITH CURIOSITY © 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
